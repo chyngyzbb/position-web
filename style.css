@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header .nav-bar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 32px 0 35px 0;
+    color: rgba(0, 0, 0, 1);
+}
+.nav-bar h1{
+    margin-left: -10px;
+}
+.menu{
+    width: 100%;
+}
+.menu a{
+    margin: 0 30px;
+    color: rgba(0, 0, 0, 1);
+}
+.container .header-btn{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.header-btn button{
+    border: none;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 1);
+    margin: 0 0 0 50px;
+}
+
+/* //////////HERO///////// */
+#hero{
+    background: rgba(18, 17, 24, 1);
+}
+.hero{
+    text-align: center;
+}
+.hero-text h1{
+    padding: 96px 0 44px 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 63px;
+    font-weight: 400;
+    line-height: 73px; /* 115.873% */
+    letter-spacing: 2.88px;
+}
+.hero-text p{
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px; /* 128.571% */
+    letter-spacing: 0.42px;
+}
+.hero-text button{
+    border-radius: 8px;
+    background: #FF4343;
+    display: inline-flex;
+    padding: 15px 46px 24px 30px;
+    align-items: center;
+    gap: 12px;
+    margin: 73px 0 19px 0;
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 26.4px; /* 114.783% */
+    letter-spacing: 0.42px;
+    border: none;
+}
+.hero-btn button ion-icon{
+    width: 22px;
+    height: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+.hero-text h6{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.42px;
+}
+/* ////////HERO-IMG///////////// */
+
+.hero-img{
+    position: relative;
+    margin-top: 60px;
+}
+.hero-img .kar{
+    position: absolute;
+    right: 140px;
+}
+
+/* //////////////////HERO TWO IMG/////////////// */
+
+.hero-two{
+    display: flex;
+}
+.hero-two .two-text{
+    text-align: start;
+}
+.two-text h1{
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 70.4px; /* 121.379% */
+    letter-spacing: 1.92px;
+    margin: 210px 0 38px 0;
+}
+.two-text p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 37.8px; /* 145.385% */
+    letter-spacing: 1.08px;
+}
+.hero-two .two-img{
+    position: relative;
+}
+.two-img .one{
+    position: relative;
+    top: 148px;
+}
+.two-img .two{
+    position: absolute;
+    right: -80px;
+    top: 60px;
+    width: 341px;
+    height: 662px;
+    flex-shrink: 0;
+}
+
+/* //////////HERO-THRE/////// */
+
+.hero-three{
+    display: flex;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.hero-three .three-text{
+    margin-left: 60px;
+    margin-right: -60px;
+}
+.three-text h1{
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 70.4px; /* 121.379% */
+    letter-spacing: 1.92px;
+    margin-bottom: 38px;
+}
+.three-text p{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px; /* 140% */
+    letter-spacing: 1.08px;
+}
+.three-text p span{
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 1.08px;
+}
+
+/* ///////////HERO-FOUR///////// */
+.hero-four{
+    margin-top: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 180px;
+}
+.hero-four .four-text{
+    margin-right: 100px;
+    text-align: start;
+}
+.four-text h1{
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 70.4px; /* 130.37% */
+    letter-spacing: 3.2px;
+}
+.four-text p{
+    width: 526px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px; /* 140% */
+    letter-spacing: 1.08px;
+}
+.four-text p span{
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 37.8px;
+    letter-spacing: 1.08px;
+}
+/* //////////FOOTER////////// */
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footer-logo ion-icon{
+    font-size: 35px;
+    margin: 0 20px;
+}
